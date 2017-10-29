@@ -1,0 +1,31 @@
+/*
+*
+*
+*
+this css stylesheet make a breakpoint in website when its width is greater then 45%
+*
+*
+*
+*/
+.container {
+  max-width: 960px;
+}
+.project-wrap{
+  width: 32%;
+}
+header {
+  flex-direction: row;
+  padding-bottom: 1em;
+}
+.my-links {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 1.375em;
+  align-items: flex-end;
+}
+.feature-work {
+  align-self: flex-start;
+  text-align: left;
+}
